@@ -1,71 +1,62 @@
-# 🌏 Life Expectancy Prediction using Linear Regression
+# Life Expectancy — Linear Regression
 
-[![Kaggle Score: 85%](https://img.shields.io/badge/Kaggle-85%25-brightgreen)](https://www.kaggle.com/code/amit8021/life-expectancy-with-linear-regression-85-score)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+A Jupyter Notebook project that explores and models global life expectancy using linear regression. The model achieves an R² score of approximately 0.85, demonstrating strong predictive performance.
 
-Predicting **life expectancy** is a crucial task for public health, policy-makers, and researchers. This project demonstrates how to build a **machine learning pipeline** to forecast life expectancy using real-world WHO data, achieving a strong R² score of **0.85**.
+## Key Highlights
+- **Task:** Predict life expectancy using country-level features
+- **Model:** Linear Regression (scikit-learn)
+- **Achieved Score:** R² ≈ 0.85 (see notebook for details)
 
----
+## Contents
+- **Notebook:** [Life_Expectancy_Linear_Regression.ipynb](Life_Expectancy_Linear_Regression.ipynb)
+- **Data:** Included in the repository ([Kaggle source](https://www.kaggle.com/))
+- **Requirements:** Python 3.8+, pandas, numpy, scikit-learn, matplotlib, seaborn, notebook
 
-## 🚀 Project Highlights
+## Getting Started
 
-- **Real WHO Dataset:** Multiyear, multi-country, 22 features.
-- **Robust Data Cleaning:** Mean-imputation, outlier handling with IQR.
-- **Feature Engineering:** Label encoding, MinMax scaling, clear handling of categorical and numerical columns.
-- **Model Building:** Linear Regression with train-test split and R² score evaluation.
-- **Rich Visualizations:** Interactive Plotly plots—boxplots, heatmaps, trends, and comparisons.
-- **Generalization Check:** Overfitting/underfitting inspection.
+**1. Clone the repository**
+```bash
+git clone https://github.com/PatelG108/Life-Expectancy-Linear-Regression-85-score-.git
+cd Life-Expectancy-Linear-Regression-85-score-
+```
 
----
+**2. Install dependencies**
+```bash
+python -m venv .venv
+source .venv/bin/activate   # macOS / Linux
+.venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+```
 
-## 📊 Workflow
+**3. Run the notebook**
+- Open `Life_Expectancy_Linear_Regression.ipynb` in Jupyter or [Google Colab](https://colab.research.google.com/github/PatelG108/Life-Expectancy-Linear-Regression-85-score-/blob/main/Life_Expectancy_Linear_Regression.ipynb).
 
-1. **Data Loading & Overview**
-    - Import dataset, shape and info summary.
-    - Descriptive stats and missing value analysis.
+## Project Overview
+- **Data preprocessing:** Handle missing values, encode categorical variables, normalize features.
+- **Exploratory analysis:** Distributions, pairplots, correlations, and feature importance.
+- **Modeling:** Train/test split, fit linear regression, evaluate using R² and residual analysis.
+- **Results:** Visualizations of predicted vs. actual values and residuals.
 
-2. **Cleaning & Imputation**
-    - Mean-value fill for missing numeric data.
-    - Outlier detection/replacement using IQR.
+## How to Reproduce Results
+- Open the notebook in Jupyter or Colab.
+- Ensure the dataset is available in the expected path (see notebook instructions).
+- Run all cells to reproduce analysis and plots.
 
-3. **Exploratory Data Analysis**
-    - Plots: year-wise, status-wise, country-wise.
-    - Correlation heatmap.
+## Recommended Dependencies (`requirements.txt`)
+```
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+notebook
+scipy
+```
 
-4. **Feature Encoding & Scaling**
-    - Label Encoding for categorical data.
-    - MinMaxScaler for numerical features.
+## License
+This project is licensed under the MIT License.
 
-5. **Model Development**
-    - Train/Test split (80/20).
-    - Train Linear Regression, predict, score with R².
-
-6. **Results Visualization**
-    - Scatter plots for actual vs predicted values.
-    - Comparisons: Developed vs Developing countries.
-
----
-
-## 📈 Results
-
-- **Final Model:** Linear Regression
-- **Score:** R² = 0.85
-- **Insights:**
-    - GDP and healthcare spending strongly correlated with life expectancy.
-    - Developed nations have higher, less variable life expectancy.
-    - Proper outlier and missing data handling improves predictions.
-
----
-
-## 🖼️ Example Visualizations
-
-- Boxplot: Outlier detection (pre/post cleaning)
-- Correlation heatmap
-- Life expectancy trend per country
-- Status histogram (Developed vs Developing)
-
----
-
-## 🔧 Usage
-
-Clone and run the notebook on Kaggle or locally:
+## Author
+**Amit Kumar**  
+- [Kaggle](https://www.kaggle.com/)  
+- [LinkedIn](https://www.linkedin.com/)
