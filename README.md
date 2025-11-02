@@ -1,6 +1,7 @@
 # 🌏 Life Expectancy Prediction using Linear Regression
 
 [![Kaggle Score: 85%](https://img.shields.io/badge/Kaggle-85%25-brightgreen)](https://www.kaggle.com/code/amit8021/life-expectancy-with-linear-regression-85-score)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/amit-kumar-c/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Predicting **life expectancy** is a crucial task for public health, policy-makers, and researchers. This project demonstrates how to build a **machine learning pipeline** to forecast life expectancy using real-world WHO data, achieving a strong R² score of **0.85**.
@@ -69,3 +70,11 @@ Predicting **life expectancy** is a crucial task for public health, policy-maker
 ## 🔧 Usage
 
 Clone and run the notebook on Kaggle or locally:
+
+---
+
+
+## 🙋‍♂️ Author
+
+- **Amit Kumar**
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/amit-kumar-c/)
